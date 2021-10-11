@@ -18,7 +18,7 @@ const Banner = ({usuario}) => {
         <div className="container-hola-usuario">
               <div className="container-bienvenido">
                   <h4>Bienvenid@ <span>{nombre}</span></h4>
-                 <Link to = '/'><p>Cerrar sesión</p></Link>
+                 <Link to = '/alumn-crud'><p>Cerrar sesión</p></Link>
                  </div>
             </div>
       );

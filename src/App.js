@@ -20,11 +20,11 @@ function App() {
       
         <Router>
           <Switch>
-            <Route exact path ="/"
+            <Route exact path ="/alumn-crud"
              render= {props => (
                <Login {...props} usuario= {usuario} guardarUsuario = {guardarUsuario}/>
              )}/>
-            <Route exact path = "/crud" render = {props => (
+            <Route exact path = "/alumn-crud/crud" render = {props => (
               <Crud {...props} usuario= {usuario} guardarUsuario = {guardarUsuario}/>
             )}/>
           </Switch>
