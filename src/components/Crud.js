@@ -1,21 +1,35 @@
 
+
+
 import AgregarTema from './AgregarTema'
 import ListaAlumnos from "./ListaAlumnos";
 import ListaTemas from "./ListaTemas";
+import Banner from './Banner';
 
-const Crud = () => {
+const Crud = ({usuario, guardarUsuario}) => {
 
-    
+ 
 
 return (
         <div className="container-crud">
              
-             <ListaAlumnos/>
+             <ListaAlumnos
+             
+             />
 
             <div className="container-content">
-                <AgregarTema/>
+                <Banner
+                   usuario = {usuario}
+                   guardarUsuario = {guardarUsuario}
+                />
+                <AgregarTema
+                  
+
+                />
                 <div className="tareas">
-                 <ListaTemas/>     
+                 <ListaTemas
+                   
+                 />     
                 </div>
             </div>
         </div>

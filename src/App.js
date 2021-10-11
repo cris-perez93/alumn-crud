@@ -1,20 +1,36 @@
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Login from './components/Login';
-import NuevaCuenta from './components/NuevaCuenta';
 import Crud from './components/Crud';
-
 import AlumnosState from './context/alumnos/alumnosState'
+import { useState } from 'react';
+
+
 
 function App() {
+
+  const [usuario, guardarUsuario] = useState({
+    nombre:''
+ })
+
+   
+
   return (
+    
     <AlumnosState>
-      <Router>
-      <Switch>
-        <Route exact path ="/" component={Login} />
-        <Route exact path = "/nueva-cuenta" component = {NuevaCuenta} />
-        <Route exact path = "/crud" component = {Crud} />
-      </Switch>
-    </Router>
+      
+        <Router>
+          <Switch>
+            <Route exact path ="/"
+             render= {props => (
+               <Login {...props} usuario= {usuario} guardarUsuario = {guardarUsuario}/>
+             )}/>
+            <Route exact path = "/crud" render = {props => (
+              <Crud {...props} usuario= {usuario} guardarUsuario = {guardarUsuario}/>
+            )}/>
+          </Switch>
+       </Router>
+       
+    
   </AlumnosState>
   );
 }
