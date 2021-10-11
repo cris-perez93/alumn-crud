@@ -18,13 +18,13 @@ function App() {
     
     <AlumnosState>
       
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
-            <Route exact path ="/alumn-crud"
+            <Route exact path ="/"
              render= {props => (
                <Login {...props} usuario= {usuario} guardarUsuario = {guardarUsuario}/>
              )}/>
-            <Route exact path = "/alumn-crud/crud" render = {props => (
+            <Route exact path = "/crud" render = {props => (
               <Crud {...props} usuario= {usuario} guardarUsuario = {guardarUsuario}/>
             )}/>
           </Switch>

@@ -62,7 +62,7 @@ const Login = ({usuario, guardarUsuario}) => {
                 <div className="form__field">
                   
                     <Link
-                      to = 'alumn-crud/crud'
+                      to = '/crud'
                       
                           
                     ><button  className="btn-login" type="submit" value="Login">Login</button></Link>
