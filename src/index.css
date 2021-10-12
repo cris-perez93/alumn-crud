@@ -140,7 +140,12 @@ label{
     font-size: 16px;
     cursor: pointer;
     width: 80%;
+    transition: .2s ease-in-out;
 
+}
+
+.btn-agregar-alumno:hover{
+    background-color: rgba(202, 136, 124, 0.63);
 }
 
 .form-agregar-alumno{
@@ -174,7 +179,12 @@ label{
   font-family: 'Urbanist', sans-serif;
   font-size: 16px;
   cursor: pointer;
+  transition: .2s ease-in-out;
 
+}
+
+.btn-enviar-alumno:hover {
+    background-color: rgba(202, 136, 124, 0.63);
 }
 
 .cerrar-sesion{
@@ -257,6 +267,7 @@ label{
     align-items:center;
     padding: 20px;
     width: 80%;
+   
     
 }
 
@@ -267,9 +278,13 @@ label{
     justify-content:center ;
     align-items: center;
     
-    
-    
-   }
+}
+
+.container-btn-temas{
+       
+       padding: 2px;
+       width: 100%;
+ }
 
 label{
     font-size: 16px;
@@ -560,17 +575,26 @@ label{
 
     }
 
+    .container-lista{
+        background-color: brown;
+        margin-bottom:;
+        
+    }
+
     .btn-temas{
         margin-top: 10px;
     }
 
     .form-banner{
         margin-bottom: 20px;
+        height: 400px;
+        padding: 0;
     }
 
     .container-input{
         display: flex;
         flex-direction: column;
+        
     }
     .input-temas{
         width: 120px;

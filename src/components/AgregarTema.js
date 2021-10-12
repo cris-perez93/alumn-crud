@@ -116,12 +116,13 @@ const AgregarTema = () => {
                         </div>
 
                        
-                       
+                       <div className="container-btn-temas">
                             <input
                             type="submit"
                             className="btn-temas"
                             value ={temaseleccionado ? 'Editar Examen' : 'Agregar Examen'}
                             />
+                        </div>
                         
                         
 
