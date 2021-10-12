@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/alumn-crud/static/css/main.cefe6811.chunk.css",
-    "main.js": "/alumn-crud/static/js/main.d8231316.chunk.js",
-    "main.js.map": "/alumn-crud/static/js/main.d8231316.chunk.js.map",
+    "main.css": "/alumn-crud/static/css/main.5a27d93e.chunk.css",
+    "main.js": "/alumn-crud/static/js/main.e6c2b97b.chunk.js",
+    "main.js.map": "/alumn-crud/static/js/main.e6c2b97b.chunk.js.map",
     "runtime-main.js": "/alumn-crud/static/js/runtime-main.2b818f45.js",
     "runtime-main.js.map": "/alumn-crud/static/js/runtime-main.2b818f45.js.map",
     "static/js/2.0c66de52.chunk.js": "/alumn-crud/static/js/2.0c66de52.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.d8a36a78.chunk.js": "/alumn-crud/static/js/3.d8a36a78.chunk.js",
     "static/js/3.d8a36a78.chunk.js.map": "/alumn-crud/static/js/3.d8a36a78.chunk.js.map",
     "index.html": "/alumn-crud/index.html",
-    "static/css/main.cefe6811.chunk.css.map": "/alumn-crud/static/css/main.cefe6811.chunk.css.map",
+    "static/css/main.5a27d93e.chunk.css.map": "/alumn-crud/static/css/main.5a27d93e.chunk.css.map",
     "static/js/2.0c66de52.chunk.js.LICENSE.txt": "/alumn-crud/static/js/2.0c66de52.chunk.js.LICENSE.txt",
     "static/media/avatar.6ce16000.png": "/alumn-crud/static/media/avatar.6ce16000.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2b818f45.js",
     "static/js/2.0c66de52.chunk.js",
-    "static/css/main.cefe6811.chunk.css",
-    "static/js/main.d8231316.chunk.js"
+    "static/css/main.5a27d93e.chunk.css",
+    "static/js/main.e6c2b97b.chunk.js"
   ]
 }
